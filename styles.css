@@ -1,0 +1,56 @@
+nav{
+    padding: 10px;
+    background-color: bisque;
+    width: 100%;;
+    display: block;
+    height: auto;
+}
+
+.navigation-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    border: 2px solid black;
+    text-align: center;
+    height: 100%;
+    display: block;
+    padding: 10px;
+}
+.navigation-menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navigation-menu li a {
+    display: inline-block;
+    padding: 2px;
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+
+}
+.navigation-menu li a:hover {
+    background-color: white;
+    color: black;
+}
+.welcome {
+    display: block;
+    margin-bottom: 0px;
+    padding: 10px;
+    text-align: right;
+    
+}
+#home  {
+   background: url(133940971941298468.jpg);
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+#home p {
+    text-align: right;
+    font-size: 18px;
+    margin-top: 10px;
+}
